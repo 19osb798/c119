@@ -23,7 +23,7 @@ function draw(){
     }
 }
 function classifyCanvas(){
- Classifier.classify(canvas,gotResult);   
+ classifier.classify(canvas,gotResult);   
 }
 function gotResult(){
     if (error){
